@@ -4,6 +4,31 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .center {
+            width: 100%;
+            max-width: 1630px; /* Adjust the max-width as needed */
+            margin: 0 auto;
+        }
+        table {
+            width: 100%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            color: black;
+        }
+        th {
+            background-color: white;
+            position: sticky;
+            top: 0;
+        }
+        td {
+            background-color: white;
+        }
+    </style>
 
     <title>ExNet-BF+PF</title>
     
@@ -119,9 +144,8 @@
         <p style="color:black; font-family:Sans-Serif; font-size:24px;"> Non-Reverberant Environment </p>
         <br><br>
 
-        <div class="center" style="width:1630px; margin:0 auto;">
-
-            <table border=0 justify="center" cellpadding="20px" style="width: 95%">
+        <div class="center">
+        <table border="0" cellpadding="20px">
                 <tr>
                 <th style="background-color:white;position: sticky; top: 0;width: 10%; text-align: center; padding: 10px; color:black">Type</th>
                 <th style="background-color:white;position: sticky; top: 0;width: 20%; text-align: center; padding: 10px; color:black">Input</th>
