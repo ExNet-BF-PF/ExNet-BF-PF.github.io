@@ -19,6 +19,20 @@
     <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'> -->
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    button {
+      font-size: 20px;
+      padding: 15px 30px;
+      margin: 20px;
+      cursor: pointer;
+    }
+  </style>
+
 </head>
     
 <body>
@@ -59,289 +73,12 @@
         <!-- <div class="section-title center"> -->
     <div class="section-title text-center center">
       <!-- <div class="col-md-20 col-md-offset--100"> -->
-
-<input type="radio" name="vote" value="A">
         
-        <p style="color:black; font-family:Sans-Serif; font-size:24px;"> Non-Reverberant Environment </p>
-        <br><br>
+  <h1>Choose a Voting Page</h1>
 
-        <div class="center">
-        <table border="0" cellpadding="20px">
-                <tr>
-                <th style="background-color:white;position: sticky; top: 0;width: 10%; text-align: center; padding: 10px; color:black">Type</th>
-                <th style="background-color:white;position: sticky; top: 0;width: 20%; text-align: center; padding: 10px; color:black">Input</th>
-                <th style="background-color:white;position: sticky; top: 0;width: 20%; text-align: center; padding: 10px; color:black">Method 1</th>
-                <th style="background-color:white;position: sticky; top: 0;width: 20%; text-align: center; padding: 10px; color:black">Method 2</th>
-                <th style="background-color:white;position: sticky; top: 0;width: 20%; text-align: center; padding: 10px; color:black">Method 3</th>
-                </tr>
-
-
-                <tr>
-                    <td style="width: 10%; text-align: center; padding: 10px; color:black">
-                        <p class="plain-text">Standard </p>
-                    </td>
-                            
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/Standard/norm_Input.wav" type="audio/wav"></audio>
-                        <img src="withoutRev/Standard/output_norm_Input.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">                       
-                    </td>
-            
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/Standard/norm_Net.wav" type="audio/wav"></audio>
-                        <img src="withoutRev/Standard/output_norm_Net.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/Standard/norm_FASNET.wav" type="audio/wav"></audio>
-                         <img src="withoutRev/Standard/output_norm_FASNET.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/Standard/norm_SPATIAL.wav" type="audio/wav"></audio>
-                         <img src="withoutRev/Standard/output_norm_SPATIAL.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td style="width: 10%; text-align: center; padding: 10px; color:black">
-                        <p class="plain-text">Time-Varying Noise </p>
-                    </td>
-                            
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/TimeVaryingNoise/norm_Input.wav" type="audio/wav"></audio>
-                        <img src="withoutRev/TimeVaryingNoise/output_norm_Input.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-            
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/TimeVaryingNoise/norm_Net.wav" type="audio/wav"></audio>
-                        <img src="withoutRev/TimeVaryingNoise/output_norm_Net.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-                     <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/TimeVaryingNoise/norm_FASNET.wav" type="audio/wav"></audio>
-                         <img src="withoutRev/TimeVaryingNoise/output_norm_FASNET.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-                     <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/TimeVaryingNoise/norm_SPATIAL.wav" type="audio/wav"></audio>
-                         <img src="withoutRev/TimeVaryingNoise/output_norm_SPATIAL.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td style="width: 10%; text-align: center; padding: 10px; color:black">
-                        <p class="plain-text">Speaker Switch </p>
-                    </td>
-                            
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                       <audio width="250" controls><source src="withoutRev/SpeakerSwitch/norm_Input.wav" type="audio/wav"></audio>
-                       <img src="withoutRev/SpeakerSwitch/output_norm_Input.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-            
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/SpeakerSwitch/norm_Net.wav" type="audio/wav"></audio>
-                        <img src="withoutRev/SpeakerSwitch/output_norm_Net.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/SpeakerSwitch/norm_FASNET.wav" type="audio/wav"></audio>
-                         <img src="withoutRev/SpeakerSwitch/output_norm_FASNET.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/SpeakerSwitch/norm_SPATIAL.wav" type="audio/wav"></audio>
-                         <img src="withoutRev/SpeakerSwitch/output_norm_SPATIAL.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td style="width: 10%; text-align: center; padding: 10px; color:black">
-                        <p class="plain-text">Diffuse Noise </p>
-                    </td>
-                            
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                       <audio width="250" controls><source src="withoutRev/BabbleNoise/norm_Input.wav" type="audio/wav"></audio>
-                       <img src="withoutRev/BabbleNoise/output_norm_Input.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-            
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/BabbleNoise/norm_Net.wav" type="audio/wav"></audio>
-                        <img src="withoutRev/BabbleNoise/output_norm_Net.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/BabbleNoise/norm_FASNET.wav" type="audio/wav"></audio>
-                         <img src="withoutRev/BabbleNoise/output_norm_FASNET.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/BabbleNoise/norm_SPATIAL.wav" type="audio/wav"></audio>
-                         <img src="withoutRev/BabbleNoise/output_norm_SPATIAL.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td style="width: 10%; text-align: center; padding: 10px; color:black">
-                        <p class="plain-text">Babble </p>
-                    </td>
-                            
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/BabbleVoices/norm_Input.wav" type="audio/wav"></audio>
-                       <img src="withoutRev/BabbleVoices/output_norm_Input.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-            
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/BabbleVoices/norm_Net.wav" type="audio/wav"></audio>
-                        <img src="withoutRev/BabbleVoices/output_norm_Net.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/BabbleVoices/norm_FASNET.wav" type="audio/wav"></audio>
-                         <img src="withoutRev/BabbleVoices/output_norm_FASNET.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-                    <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                        <audio width="250" controls><source src="withoutRev/BabbleVoices/norm_SPATIAL.wav" type="audio/wav"></audio>
-                         <img src="withoutRev/BabbleVoices/output_norm_SPATIAL.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                    </td>
-                </tr>
-
-
-            </table>
-        </div>
-
-    <br><br><br>
-    <p style="color:black; font-family:Sans-Serif; font-size:24px;"> Reverberant Environment </p>
-    <br><br>
-
-    <div class="center">
-        <table border="0" cellpadding="20px">
-            <tr>
-            <th style="background-color:white;position: sticky; top: 0;width: 10%; text-align: center; padding: 10px; color:black">Type</th>
-            <th style="background-color:white;position: sticky; top: 0;width: 20%; text-align: center; padding: 10px; color:black">Input</th>
-            <th style="background-color:white;position: sticky; top: 0;width: 20%; text-align: center; padding: 10px; color:black">Method 1</th>
-            <th style="background-color:white;position: sticky; top: 0;width: 20%; text-align: center; padding: 10px; color:black">Method 2</th>
-            <th style="background-color:white;position: sticky; top: 0;width: 20%; text-align: center; padding: 10px; color:black">Method 3</th>
-            </tr>
-
-
-            <tr>
-                <td style="width: 10%; text-align: center; padding: 10px; color:black">
-                    <p class="plain-text">Standard </p>
-                </td>
-                        
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                   <audio width="250" controls><source src="withRev/Standard/norm_Input.wav" type="audio/wav"></audio>
-                   <img src="withRev/Standard/output_norm_Input.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-        
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/Standard/norm_Net.wav" type="audio/wav"></audio>
-                    <img src="withRev/Standard/output_norm_Net.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/Standard/norm_FASNET.wav" type="audio/wav"></audio>
-                     <img src="withRev/Standard/output_norm_FASNET.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/Standard/norm_SPATIAL.wav" type="audio/wav"></audio>
-                     <img src="withRev/Standard/output_norm_SPATIAL.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-            </tr>
-
-            <tr>
-                <td style="width: 10%; text-align: center; padding: 10px; color:black">
-                    <p class="plain-text">Time-Varying Noise </p>
-                </td>
-                        
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/TimeVaryingNoise/norm_Input.wav" type="audio/wav"></audio>
-                    <img src="withRev/TimeVaryingNoise/output_norm_Input.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-        
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/TimeVaryingNoise/norm_Net.wav" type="audio/wav"></audio>
-                    <img src="withRev/TimeVaryingNoise/output_norm_Net.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/TimeVaryingNoise/norm_FASNET.wav" type="audio/wav"></audio>
-                     <img src="withRev/TimeVaryingNoise/output_norm_FASNET.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/TimeVaryingNoise/norm_SPATIAL.wav" type="audio/wav"></audio>
-                     <img src="withRev/TimeVaryingNoise/output_norm_SPATIAL.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-            </tr>
-
-            <tr>
-                <td style="width: 10%; text-align: center; padding: 10px; color:black">
-                    <p class="plain-text">Speaker Switch </p>
-                </td>
-                        
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                   <audio width="250" controls><source src="withRev/SpeakerSwitch/norm_Input.wav" type="audio/wav"></audio>
-                   <img src="withRev/SpeakerSwitch/output_norm_Input.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-        
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/SpeakerSwitch/norm_Net.wav" type="audio/wav"></audio>
-                    <img src="withRev/SpeakerSwitch/output_norm_Net.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/SpeakerSwitch/norm_FASNET.wav" type="audio/wav"></audio>
-                     <img src="withRev/SpeakerSwitch/output_norm_FASNET.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/SpeakerSwitch/norm_SPATIAL.wav" type="audio/wav"></audio>
-                     <img src="withRev/SpeakerSwitch/output_norm_SPATIAL.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-            </tr>
-
-            <tr>
-                <td style="width: 10%; text-align: center; padding: 10px; color:black">
-                    <p class="plain-text">Diffuse Noise </p>
-                </td>
-                        
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                   <audio width="250" controls><source src="withRev/BabbleNoise/norm_Input.wav" type="audio/wav"></audio>
-                   <img src="withRev/BabbleNoise/output_norm_Input.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-        
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/BabbleNoise/norm_Net.wav" type="audio/wav"></audio>
-                    <img src="withRev/BabbleNoise/output_norm_Net.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/BabbleNoise/norm_FASNET.wav" type="audio/wav"></audio>
-                     <img src="withRev/BabbleNoise/output_norm_FASNET.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/BabbleNoise/norm_SPATIAL.wav" type="audio/wav"></audio>
-                     <img src="withRev/BabbleNoise/output_norm_SPATIAL.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-            </tr>
-
-            <tr>
-                <td style="width: 10%; text-align: center; padding: 10px; color:black">
-                    <p class="plain-text">Babble </p>
-                </td>
-                        
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/BabbleVoices/norm_Input.wav" type="audio/wav"></audio>
-                   <img src="withRev/BabbleVoices/output_norm_Input.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-        
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/BabbleVoices/norm_Net.wav" type="audio/wav"></audio>
-                    <img src="withRev/BabbleVoices/output_norm_Net.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/BabbleVoices/norm_FASNET.wav" type="audio/wav"></audio>
-                     <img src="withRev/BabbleVoices/output_norm_FASNET.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-                <td style="width: 20%; text-align: center; padding: 10px; color:black">
-                    <audio width="250" controls><source src="withRev/BabbleVoices/norm_SPATIAL.wav" type="audio/wav"></audio>
-                     <img src="withRev/BabbleVoices/output_norm_SPATIAL.png" class="audio-image" style="display: block; margin: 10px auto;" height="200">
-                </td>
-            </tr>
-
-
-        </table>
-    </div>    
-
-    
-</div>
-</div>
+  <button onclick="location.href='from1.html'">Vote on Sample Set A</button>
+  <button onclick="location.href='from2.html'">Vote on Sample Set B</button>
+  <button onclick="location.href='from3.html'">Vote on Sample Set C</button>
 
 
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
